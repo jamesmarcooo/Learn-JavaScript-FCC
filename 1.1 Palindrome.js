@@ -3,10 +3,7 @@ function palindrome(str) {
       
     let palStr = nospcStr.split("").reverse().join("");
     console.log(nospcStr,palStr);
-    if(nospcStr != palStr){
-      return false;
-    }
-    return true;
+    return (nospcStr != palStr) ? false : true;
   }
   
   palindrome("A man, a plan, a canal. Panama");
