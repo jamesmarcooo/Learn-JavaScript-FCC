@@ -128,3 +128,9 @@ let reCriminals = /C+/;
 let rickyAndCal = "Cal and Ricky both like racing.";
 let calRegex = /^Cal/; // Change this line
 let result = calRegex.test(rickyAndCal);
+
+
+// --
+// Match Ending String Patterns
+// >
+// Use the anchor character ($) to match the string caboose at the end of the string caboose.
