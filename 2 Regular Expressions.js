@@ -25,7 +25,13 @@ let fccRegex = /freecodecamp/i; // Change this line
 let result = fccRegex.test(myString);
 
 
-
+// --
+// Extract Matches
+// >
+// Apply the .match() method to extract the string coding.
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /coding/; // Change this line
+let result = extractStr.match(codingRegex); // Change this line
 
 
 
