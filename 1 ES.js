@@ -260,3 +260,9 @@ const createPerson = (name, age, gender) => {
 
   return{name,age,gender};
 };
+
+
+// --
+// Write Concise Declarative Functions with ES6
+// >
+// Refactor the function setGear inside the object bicycle to use the shorthand syntax described above.
