@@ -103,6 +103,12 @@ let result = difficultSpelling.match(myRegex);
 let chewieRegex = /Aa*/; // Change this line
 
 let result = chewieQuote.match(chewieRegex);
-console.log(result);
 
 
+//--
+// Find Characters with Lazy Matching
+// >
+// Fix the regex /<.*>/ to return the HTML tag <h1> and not the text "<h1>Winter is coming</h1>". Remember the wildcard . in a regular expression matches any character.
+let text = "<h1>Winter is coming</h1>";
+let myRegex = /<.*?>/; // Change this line
+let result = text.match(myRegex);
