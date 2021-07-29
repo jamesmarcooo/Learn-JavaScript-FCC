@@ -290,3 +290,29 @@ class Vegetable{
 
 const carrot = new Vegetable('carrot');
 console.log(carrot.name); // Should display 'carrot'
+
+
+
+// --
+// Use getters and setters to Control Access to an Object
+// >
+// Use the class keyword to create a Thermostat class. The constructor accepts a Fahrenheit temperature.
+class Thermostat{
+  constructor(temp){
+    this._temp=temp;
+  }
+  get temperature(){
+    return 5/9 * (this._temp - 32);
+  }
+  set temperature(updateTemp){
+    this._temp = updateTemp * 9.0 / 5 + 32;
+  }
+}
+
+
+
+const thermos = new Thermostat(76); // Setting in Fahrenheit scale
+let temp = thermos.temperature; // 24.44 in Celsius
+thermos.temperature = 26;
+temp = thermos.temperature; // 26 in Celsius
+console.log(temp);
