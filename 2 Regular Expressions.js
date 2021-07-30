@@ -260,3 +260,12 @@ let result = pwRegex.test(sampleWord);
 let myString = "Franklin D. Roosevelt";
 let myRegex = /(Eleanor|Franklin|Franklin D.) Roosevelt/; // Change this line
 let result = myRegex.test(myString); // Change this line
+
+
+// --*****
+// Reuse Patterns Using Capture Groups
+// >
+// Use capture groups in reRegex to match a string that consists of only the same number repeated exactly three times separated by single spaces.
+let repeatNum = "42 42 42";
+let reRegex = /(\d+)\s\1\s\1$/; // Change this line
+let result = reRegex.test(repeatNum);
