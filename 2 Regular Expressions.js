@@ -251,3 +251,12 @@ let result = favRegex.test(favWord);
 let sampleWord = "1a2bcde";
 let pwRegex = /(?=\w{5,})(?=\D+\d\d)/; // Change this line
 let result = pwRegex.test(sampleWord);
+
+
+// --
+// Check For Mixed Grouping of Characters
+// >
+// Then fix the code so that the regex that you have created is checked against myString and either true or false is returned depending on whether the regex matches.
+let myString = "Franklin D. Roosevelt";
+let myRegex = /(Eleanor|Franklin|Franklin D.) Roosevelt/; // Change this line
+let result = myRegex.test(myString); // Change this line
