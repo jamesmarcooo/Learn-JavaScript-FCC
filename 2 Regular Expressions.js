@@ -134,3 +134,15 @@ let result = calRegex.test(rickyAndCal);
 // Match Ending String Patterns
 // >
 // Use the anchor character ($) to match the string caboose at the end of the string caboose.
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /caboose$/; // Change this line
+let result = lastRegex.test(caboose);
+
+
+// --
+// Match All Letters and Numbers
+// >
+// Use the shorthand character class \w to count the number of alphanumeric characters in various quotes and strings.
+let quoteSample = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /\w/gi; // Change this line
+let result = quoteSample.match(alphabetRegexV2).length;
