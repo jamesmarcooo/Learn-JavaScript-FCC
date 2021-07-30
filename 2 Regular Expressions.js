@@ -187,3 +187,9 @@ let result = movieName.match(noNumRegex).length;
 let username = "JackOfAllTrades";
 let userCheck = /^[a-z]([a-z]+\d*|[\d][\d])$/i; // Change this line
 let result = userCheck.test(username);
+
+
+// --
+// Match Whitespace
+// >
+// Change the regex countWhiteSpace to look for multiple whitespace characters in a string.
