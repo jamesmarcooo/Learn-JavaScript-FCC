@@ -41,4 +41,10 @@ function popShift(arr) {
     return [shifted, popped];
   }
   
-  console.log(popShift(['challenge', 'is', 'not', 'complete']));
+console.log(popShift(['challenge', 'is', 'not', 'complete']));
+
+
+// --
+// Remove Items Using splice()
+// >
+// We've initialized an array arr. Use splice() to remove elements from arr, so that it only contains elements that sum to the value of 10.
