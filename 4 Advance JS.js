@@ -8,3 +8,9 @@ const newArray = array.forEach(num =>{
 
 //map
 const mapArray = array.map(num => num*2);
+
+//filter
+const filterArray = array.filter(num => {
+    return num > 5;
+});
+
