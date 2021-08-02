@@ -6,4 +6,5 @@ const newArray = array.forEach(num =>{
     double.push(num*2);
 });
 
-
+//map
+const mapArray = array.map(num => num*2);
