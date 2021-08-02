@@ -34,11 +34,18 @@ function moveCommand(direction) {
 }
 
 //#2 return value when moveCommand("forward");
+console.log(moveCommand("forward"));
 
 //#3 return value when moveCommand("back");
+console.log(moveCommand("back"));
+
 
 //#4 return value when moveCommand("right");
+console.log(moveCommand("right"));
+
 
 //#5 return value when moveCommand("left");
+console.log(moveCommand("left"));
+
 
 //BONUS: practice makes perfect. Go and write your own switch function. It takes time to get used to the syntax!
