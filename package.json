@@ -1,0 +1,23 @@
+{
+  "name": "learn",
+  "version": "0.0.0",
+  "description": "learning to install npm and its libraries",
+  "main": "0",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesmarcooo/Learn-JavaScript-FCC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesmarcooo/Learn-JavaScript-FCC/issues"
+  },
+  "homepage": "https://github.com/jamesmarcooo/Learn-JavaScript-FCC#readme"
+}
