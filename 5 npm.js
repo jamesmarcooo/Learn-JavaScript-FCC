@@ -1,3 +1,3 @@
 var_ = require('lodash');
 
-console.log(_);
+console.log(_); //actually, doesn't do anything
